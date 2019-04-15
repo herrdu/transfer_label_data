@@ -1,0 +1,123 @@
+{
+  "label_template": "image_segmentation",
+  "Task_ID": "20",
+  "label": [
+    {
+      "label_ID": 40498,
+      "image": "http://s3.cn-north-1.amazonaws.com.cn/static4.4paradigm.com/imageSets/72d45ff94acec63a085301148b75ce372c2c7685/tmp_00053f6d354d3f9eb8ea1e30f9b88a3788038813e7537edc.jpg",
+      "component": [
+        {
+          "component_id": 0,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 17, "y": 25 }, { "x": 21, "y": 72 }, { "x": 393, "y": 80 }, { "x": 396, "y": 33 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 1,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 19, "y": 87 }, { "x": 19, "y": 133 }, { "x": 441, "y": 145 }, { "x": 437, "y": 107 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 2,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 25, "y": 147 }, { "x": 22, "y": 187 }, { "x": 462, "y": 203 }, { "x": 460, "y": 165 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 3,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 23, "y": 211 }, { "x": 19, "y": 259 }, { "x": 84, "y": 258 }, { "x": 84, "y": 213 }],
+            "tag_values": "标签1"
+          }
+        }
+      ],
+      "confidence_score": 0
+    },
+    {
+      "label_ID": 40499,
+      "image": "http://s3.cn-north-1.amazonaws.com.cn/static4.4paradigm.com/imageSets/72d45ff94acec63a085301148b75ce372c2c7685/tmp_000ad84424f21f9519212742504580e3.jpg",
+      "component": [
+        {
+          "component_id": 0,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 40, "y": 29 }, { "x": 48, "y": 94 }, { "x": 696, "y": 78 }, { "x": 698, "y": 12 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 1,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 21, "y": 177 }, { "x": 23, "y": 239 }, { "x": 729, "y": 241 }, { "x": 734, "y": 180 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 2,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 28, "y": 320 }, { "x": 24, "y": 380 }, { "x": 147, "y": 374 }, { "x": 148, "y": 326 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 3,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 15, "y": 459 }, { "x": 11, "y": 526 }, { "x": 492, "y": 526 }, { "x": 505, "y": 459 }],
+            "tag_values": "标签1"
+          }
+        }
+      ],
+      "confidence_score": 0
+    },
+    {
+      "label_ID": 40500,
+      "image": "http://s3.cn-north-1.amazonaws.com.cn/static4.4paradigm.com/imageSets/72d45ff94acec63a085301148b75ce372c2c7685/tmp_0013b19b7a70a13e766dee1890ca096a661176b85a1c7c58.jpg",
+      "component": [
+        {
+          "component_id": 0,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 394, "y": 22 }, { "x": 387, "y": 511 }, { "x": 435, "y": 514 }, { "x": 434, "y": 25 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 1,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 317, "y": 14 }, { "x": 327, "y": 572 }, { "x": 362, "y": 572 }, { "x": 359, "y": 17 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 2,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 229, "y": 16 }, { "x": 249, "y": 589 }, { "x": 295, "y": 587 }, { "x": 274, "y": 19 }],
+            "tag_values": "标签1"
+          }
+        },
+        {
+          "component_id": 3,
+          "component_type": "polygon",
+          "component_detail": {
+            "pointList": [{ "x": 150, "y": 20 }, { "x": 171, "y": 589 }, { "x": 218, "y": 590 }, { "x": 190, "y": 21 }],
+            "tag_values": "标签1"
+          }
+        }
+      ],
+      "confidence_score": 0
+    }
+  ]
+}
