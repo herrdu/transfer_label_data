@@ -127,10 +127,10 @@ func handelSingleLabel(label *Label) error {
 
 	if imgWidth > clientWidth && imgHeight <= clientHeight {
 		scaleX = float32(clientWidth) / float32(imgWidth)
-		scaleY = scaleX
+		scaleY = 1
 	} else if imgHeight > clientHeight && imgWidth <= clientWidth {
 		scaleY = float32(clientHeight) / float32(imgHeight)
-		scaleX = scaleY
+		scaleX = 1
 	} else if imgHeight > clientHeight && imgWidth > clientWidth {
 		scaleX = float32(clientWidth) / float32(imgWidth)
 		scaleY = float32(clientHeight) / float32(imgHeight)
